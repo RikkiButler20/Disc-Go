@@ -1,5 +1,5 @@
 //
-//  ForgotPassViewController.swift
+//  SignUpViewController.swift
 //  Disc-Go
 //
 //  Created by Kayla Butler on 6/3/20.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ForgotPassViewController: UIViewController {
-
+class SignUpViewController: UIViewController {
     
-    @IBOutlet weak var email: UITextField!
     @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var confirmedPassword: UITextField!
     @IBOutlet weak var securityQuestion: UITextField!
     @IBOutlet weak var securityAnswer: UITextField!
     
@@ -20,8 +21,8 @@ class ForgotPassViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func securityQuestionFromDB(_ sender: Any) {
+    
+    @IBAction func signUp(_ sender: Any) {
     }
     
 }

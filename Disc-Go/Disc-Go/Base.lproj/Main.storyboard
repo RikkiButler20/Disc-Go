@@ -69,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="Cag-D0-Y5e">
             <objects>
-                <viewController id="2dL-Qd-sai" sceneMemberID="viewController">
+                <viewController id="2dL-Qd-sai" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dxB-l7-8r5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,6 +124,9 @@
                                 <rect key="frame" x="181" y="601" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUp:" destination="2dL-Qd-sai" eventType="touchUpInside" id="55p-Zx-XHZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNN-AY-Uq4">
                                 <rect key="frame" x="20" y="40" width="111" height="30"/>
@@ -138,6 +141,14 @@
                         <viewLayoutGuide key="safeArea" id="Tcv-3N-fVE"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gi9-3n-Nqj"/>
+                    <connections>
+                        <outlet property="confirmedPassword" destination="4h2-ew-WHC" id="SV3-0T-xcl"/>
+                        <outlet property="email" destination="IY2-DD-Sdh" id="eWN-aK-rj7"/>
+                        <outlet property="password" destination="I9y-rd-zkT" id="8CP-jv-4Bk"/>
+                        <outlet property="securityAnswer" destination="W2r-8C-F1X" id="o4I-1K-PJe"/>
+                        <outlet property="securityQuestion" destination="7Ey-Gy-Rgg" id="H2d-hS-nbO"/>
+                        <outlet property="username" destination="6nI-QB-7AE" id="IJt-yl-TQi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iM4-J5-Cx6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,6 +178,9 @@
                                 <rect key="frame" x="119" y="458" width="177" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Answer Security Question"/>
+                                <connections>
+                                    <action selector="securityQuestionFromDB:" destination="IQT-zL-lhF" eventType="touchUpInside" id="xJx-n6-SUC"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzW-eL-tPS" userLabel="Security Question">
                                 <rect key="frame" x="126" y="562" width="163" height="34"/>
@@ -205,6 +219,12 @@
                         <viewLayoutGuide key="safeArea" id="HHW-q2-Ceh"/>
                     </view>
                     <navigationItem key="navigationItem" id="IDI-xa-sVB"/>
+                    <connections>
+                        <outlet property="email" destination="XdD-uu-M0D" id="BUE-l1-iWD"/>
+                        <outlet property="securityAnswer" destination="zqw-Uh-zXC" id="Pi5-HR-AD6"/>
+                        <outlet property="securityQuestion" destination="tzW-eL-tPS" id="23B-rQ-0Yc"/>
+                        <outlet property="username" destination="22g-pl-XTT" id="M1T-Bv-tCC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T8H-Kj-eDB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

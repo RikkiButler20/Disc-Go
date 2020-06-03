@@ -16,6 +16,7 @@
 		EDBF4513248814F800BEDF01 /* Disc_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */; };
 		EDBF45272488267D00BEDF01 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */; };
 		EDBF452B24884D4800BEDF01 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF452A24884D4700BEDF01 /* LogInViewController.swift */; };
+		EDBF453124885FE600BEDF01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF453024885FE600BEDF01 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EDBF4514248814F800BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		EDBF452A24884D4700BEDF01 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EDBF453024885FE600BEDF01 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				EDBF44F0248814F100BEDF01 /* AppDelegate.swift */,
 				EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */,
-				EDBF452A24884D4700BEDF01 /* LogInViewController.swift */,
 				EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */,
+				EDBF452A24884D4700BEDF01 /* LogInViewController.swift */,
+				EDBF453024885FE600BEDF01 /* SignUpViewController.swift */,
 				EDBF44F6248814F100BEDF01 /* Main.storyboard */,
 				EDBF44F9248814F700BEDF01 /* Assets.xcassets */,
 				EDBF44FB248814F700BEDF01 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				EDBF45272488267D00BEDF01 /* ForgotPassViewController.swift in Sources */,
 				EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */,
 				EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */,
+				EDBF453124885FE600BEDF01 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
