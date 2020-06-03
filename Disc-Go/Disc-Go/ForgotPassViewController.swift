@@ -1,5 +1,5 @@
 //
-//  LogInViewController.swift
+//  ForgotPassViewController.swift
 //  Disc-Go
 //
 //  Created by Kayla Butler on 6/3/20.
@@ -8,8 +8,11 @@
 
 import UIKit
 
-class LogInViewController: UIViewController {
+class ForgotPassViewController: UIViewController {
 
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var email: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,4 +20,3 @@ class LogInViewController: UIViewController {
 
 
 }
-
