@@ -2,24 +2,17 @@
 //  ViewController.swift
 //  Disc-Go
 //
-//  Created by Kayla Butler on 5/7/20.
+//  Created by Kayla Butler on 6/3/20.
 //  Copyright © 2020 Kayla Butler. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
     }
 
 

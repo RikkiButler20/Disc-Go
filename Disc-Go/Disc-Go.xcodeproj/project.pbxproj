@@ -7,63 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDBF44B924646E7A00BEDF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44B824646E7A00BEDF01 /* AppDelegate.swift */; };
-		EDBF44BB24646E7A00BEDF01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44BA24646E7A00BEDF01 /* ViewController.swift */; };
-		EDBF44BD24646E7D00BEDF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44BC24646E7D00BEDF01 /* Assets.xcassets */; };
-		EDBF44C024646E7D00BEDF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44BE24646E7D00BEDF01 /* Main.storyboard */; };
-		EDBF44CC24646E7D00BEDF01 /* Disc_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44CB24646E7D00BEDF01 /* Disc_GoTests.swift */; };
-		EDBF44D724646E7D00BEDF01 /* Disc_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44D624646E7D00BEDF01 /* Disc_GoUITests.swift */; };
+		EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F0248814F100BEDF01 /* AppDelegate.swift */; };
+		EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */; };
+		EDBF44F5248814F100BEDF01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F4248814F100BEDF01 /* ViewController.swift */; };
+		EDBF44F8248814F100BEDF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44F6248814F100BEDF01 /* Main.storyboard */; };
+		EDBF44FA248814F700BEDF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44F9248814F700BEDF01 /* Assets.xcassets */; };
+		EDBF44FD248814F700BEDF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44FB248814F700BEDF01 /* LaunchScreen.storyboard */; };
+		EDBF4508248814F800BEDF01 /* Disc_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4507248814F800BEDF01 /* Disc_GoTests.swift */; };
+		EDBF4513248814F800BEDF01 /* Disc_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EDBF44C824646E7D00BEDF01 /* PBXContainerItemProxy */ = {
+		EDBF4504248814F800BEDF01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDBF44AD24646E7A00BEDF01 /* Project object */;
+			containerPortal = EDBF44E5248814F100BEDF01 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDBF44B424646E7A00BEDF01;
+			remoteGlobalIDString = EDBF44EC248814F100BEDF01;
 			remoteInfo = "Disc-Go";
 		};
-		EDBF44D324646E7D00BEDF01 /* PBXContainerItemProxy */ = {
+		EDBF450F248814F800BEDF01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EDBF44AD24646E7A00BEDF01 /* Project object */;
+			containerPortal = EDBF44E5248814F100BEDF01 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EDBF44B424646E7A00BEDF01;
+			remoteGlobalIDString = EDBF44EC248814F100BEDF01;
 			remoteInfo = "Disc-Go";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EDBF44B524646E7A00BEDF01 /* Disc-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disc-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBF44B824646E7A00BEDF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDBF44BA24646E7A00BEDF01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDBF44BC24646E7D00BEDF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDBF44BF24646E7D00BEDF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDBF44C124646E7D00BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDBF44C224646E7D00BEDF01 /* Disc_Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Disc_Go.entitlements; sourceTree = "<group>"; };
-		EDBF44C724646E7D00BEDF01 /* Disc-GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disc-GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBF44CB24646E7D00BEDF01 /* Disc_GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc_GoTests.swift; sourceTree = "<group>"; };
-		EDBF44CD24646E7D00BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDBF44D224646E7D00BEDF01 /* Disc-GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disc-GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDBF44D624646E7D00BEDF01 /* Disc_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc_GoUITests.swift; sourceTree = "<group>"; };
-		EDBF44D824646E7D00BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBF44ED248814F100BEDF01 /* Disc-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disc-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBF44F0248814F100BEDF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDBF44F4248814F100BEDF01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDBF44F7248814F100BEDF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDBF44F9248814F700BEDF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDBF44FC248814F700BEDF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDBF44FE248814F700BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBF4503248814F800BEDF01 /* Disc-GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disc-GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBF4507248814F800BEDF01 /* Disc_GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc_GoTests.swift; sourceTree = "<group>"; };
+		EDBF4509248814F800BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBF450E248814F800BEDF01 /* Disc-GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disc-GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc_GoUITests.swift; sourceTree = "<group>"; };
+		EDBF4514248814F800BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDBF44B224646E7A00BEDF01 /* Frameworks */ = {
+		EDBF44EA248814F100BEDF01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44C424646E7D00BEDF01 /* Frameworks */ = {
+		EDBF4500248814F800BEDF01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44CF24646E7D00BEDF01 /* Frameworks */ = {
+		EDBF450B248814F800BEDF01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,53 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDBF44AC24646E7A00BEDF01 = {
+		EDBF44E4248814F100BEDF01 = {
 			isa = PBXGroup;
 			children = (
-				EDBF44B724646E7A00BEDF01 /* Disc-Go */,
-				EDBF44CA24646E7D00BEDF01 /* Disc-GoTests */,
-				EDBF44D524646E7D00BEDF01 /* Disc-GoUITests */,
-				EDBF44B624646E7A00BEDF01 /* Products */,
+				EDBF44EF248814F100BEDF01 /* Disc-Go */,
+				EDBF4506248814F800BEDF01 /* Disc-GoTests */,
+				EDBF4511248814F800BEDF01 /* Disc-GoUITests */,
+				EDBF44EE248814F100BEDF01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDBF44B624646E7A00BEDF01 /* Products */ = {
+		EDBF44EE248814F100BEDF01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF44B524646E7A00BEDF01 /* Disc-Go.app */,
-				EDBF44C724646E7D00BEDF01 /* Disc-GoTests.xctest */,
-				EDBF44D224646E7D00BEDF01 /* Disc-GoUITests.xctest */,
+				EDBF44ED248814F100BEDF01 /* Disc-Go.app */,
+				EDBF4503248814F800BEDF01 /* Disc-GoTests.xctest */,
+				EDBF450E248814F800BEDF01 /* Disc-GoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDBF44B724646E7A00BEDF01 /* Disc-Go */ = {
+		EDBF44EF248814F100BEDF01 /* Disc-Go */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF44B824646E7A00BEDF01 /* AppDelegate.swift */,
-				EDBF44BA24646E7A00BEDF01 /* ViewController.swift */,
-				EDBF44BC24646E7D00BEDF01 /* Assets.xcassets */,
-				EDBF44BE24646E7D00BEDF01 /* Main.storyboard */,
-				EDBF44C124646E7D00BEDF01 /* Info.plist */,
-				EDBF44C224646E7D00BEDF01 /* Disc_Go.entitlements */,
+				EDBF44F0248814F100BEDF01 /* AppDelegate.swift */,
+				EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */,
+				EDBF44F4248814F100BEDF01 /* ViewController.swift */,
+				EDBF44F6248814F100BEDF01 /* Main.storyboard */,
+				EDBF44F9248814F700BEDF01 /* Assets.xcassets */,
+				EDBF44FB248814F700BEDF01 /* LaunchScreen.storyboard */,
+				EDBF44FE248814F700BEDF01 /* Info.plist */,
 			);
 			path = "Disc-Go";
 			sourceTree = "<group>";
 		};
-		EDBF44CA24646E7D00BEDF01 /* Disc-GoTests */ = {
+		EDBF4506248814F800BEDF01 /* Disc-GoTests */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF44CB24646E7D00BEDF01 /* Disc_GoTests.swift */,
-				EDBF44CD24646E7D00BEDF01 /* Info.plist */,
+				EDBF4507248814F800BEDF01 /* Disc_GoTests.swift */,
+				EDBF4509248814F800BEDF01 /* Info.plist */,
 			);
 			path = "Disc-GoTests";
 			sourceTree = "<group>";
 		};
-		EDBF44D524646E7D00BEDF01 /* Disc-GoUITests */ = {
+		EDBF4511248814F800BEDF01 /* Disc-GoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EDBF44D624646E7D00BEDF01 /* Disc_GoUITests.swift */,
-				EDBF44D824646E7D00BEDF01 /* Info.plist */,
+				EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */,
+				EDBF4514248814F800BEDF01 /* Info.plist */,
 			);
 			path = "Disc-GoUITests";
 			sourceTree = "<group>";
@@ -127,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDBF44B424646E7A00BEDF01 /* Disc-Go */ = {
+		EDBF44EC248814F100BEDF01 /* Disc-Go */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDBF44DB24646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-Go" */;
+			buildConfigurationList = EDBF4517248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-Go" */;
 			buildPhases = (
-				EDBF44B124646E7A00BEDF01 /* Sources */,
-				EDBF44B224646E7A00BEDF01 /* Frameworks */,
-				EDBF44B324646E7A00BEDF01 /* Resources */,
+				EDBF44E9248814F100BEDF01 /* Sources */,
+				EDBF44EA248814F100BEDF01 /* Frameworks */,
+				EDBF44EB248814F100BEDF01 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,69 +145,69 @@
 			);
 			name = "Disc-Go";
 			productName = "Disc-Go";
-			productReference = EDBF44B524646E7A00BEDF01 /* Disc-Go.app */;
+			productReference = EDBF44ED248814F100BEDF01 /* Disc-Go.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDBF44C624646E7D00BEDF01 /* Disc-GoTests */ = {
+		EDBF4502248814F800BEDF01 /* Disc-GoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDBF44DE24646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoTests" */;
+			buildConfigurationList = EDBF451A248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoTests" */;
 			buildPhases = (
-				EDBF44C324646E7D00BEDF01 /* Sources */,
-				EDBF44C424646E7D00BEDF01 /* Frameworks */,
-				EDBF44C524646E7D00BEDF01 /* Resources */,
+				EDBF44FF248814F800BEDF01 /* Sources */,
+				EDBF4500248814F800BEDF01 /* Frameworks */,
+				EDBF4501248814F800BEDF01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDBF44C924646E7D00BEDF01 /* PBXTargetDependency */,
+				EDBF4505248814F800BEDF01 /* PBXTargetDependency */,
 			);
 			name = "Disc-GoTests";
 			productName = "Disc-GoTests";
-			productReference = EDBF44C724646E7D00BEDF01 /* Disc-GoTests.xctest */;
+			productReference = EDBF4503248814F800BEDF01 /* Disc-GoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EDBF44D124646E7D00BEDF01 /* Disc-GoUITests */ = {
+		EDBF450D248814F800BEDF01 /* Disc-GoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDBF44E124646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoUITests" */;
+			buildConfigurationList = EDBF451D248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoUITests" */;
 			buildPhases = (
-				EDBF44CE24646E7D00BEDF01 /* Sources */,
-				EDBF44CF24646E7D00BEDF01 /* Frameworks */,
-				EDBF44D024646E7D00BEDF01 /* Resources */,
+				EDBF450A248814F800BEDF01 /* Sources */,
+				EDBF450B248814F800BEDF01 /* Frameworks */,
+				EDBF450C248814F800BEDF01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDBF44D424646E7D00BEDF01 /* PBXTargetDependency */,
+				EDBF4510248814F800BEDF01 /* PBXTargetDependency */,
 			);
 			name = "Disc-GoUITests";
 			productName = "Disc-GoUITests";
-			productReference = EDBF44D224646E7D00BEDF01 /* Disc-GoUITests.xctest */;
+			productReference = EDBF450E248814F800BEDF01 /* Disc-GoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDBF44AD24646E7A00BEDF01 /* Project object */ = {
+		EDBF44E5248814F100BEDF01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Kayla Butler";
 				TargetAttributes = {
-					EDBF44B424646E7A00BEDF01 = {
+					EDBF44EC248814F100BEDF01 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					EDBF44C624646E7D00BEDF01 = {
+					EDBF4502248814F800BEDF01 = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = EDBF44B424646E7A00BEDF01;
+						TestTargetID = EDBF44EC248814F100BEDF01;
 					};
-					EDBF44D124646E7D00BEDF01 = {
+					EDBF450D248814F800BEDF01 = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = EDBF44B424646E7A00BEDF01;
+						TestTargetID = EDBF44EC248814F100BEDF01;
 					};
 				};
 			};
-			buildConfigurationList = EDBF44B024646E7A00BEDF01 /* Build configuration list for PBXProject "Disc-Go" */;
+			buildConfigurationList = EDBF44E8248814F100BEDF01 /* Build configuration list for PBXProject "Disc-Go" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,36 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = EDBF44AC24646E7A00BEDF01;
-			productRefGroup = EDBF44B624646E7A00BEDF01 /* Products */;
+			mainGroup = EDBF44E4248814F100BEDF01;
+			productRefGroup = EDBF44EE248814F100BEDF01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDBF44B424646E7A00BEDF01 /* Disc-Go */,
-				EDBF44C624646E7D00BEDF01 /* Disc-GoTests */,
-				EDBF44D124646E7D00BEDF01 /* Disc-GoUITests */,
+				EDBF44EC248814F100BEDF01 /* Disc-Go */,
+				EDBF4502248814F800BEDF01 /* Disc-GoTests */,
+				EDBF450D248814F800BEDF01 /* Disc-GoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EDBF44B324646E7A00BEDF01 /* Resources */ = {
+		EDBF44EB248814F100BEDF01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBF44BD24646E7D00BEDF01 /* Assets.xcassets in Resources */,
-				EDBF44C024646E7D00BEDF01 /* Main.storyboard in Resources */,
+				EDBF44FD248814F700BEDF01 /* LaunchScreen.storyboard in Resources */,
+				EDBF44FA248814F700BEDF01 /* Assets.xcassets in Resources */,
+				EDBF44F8248814F100BEDF01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44C524646E7D00BEDF01 /* Resources */ = {
+		EDBF4501248814F800BEDF01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44D024646E7D00BEDF01 /* Resources */ = {
+		EDBF450C248814F800BEDF01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,59 +255,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDBF44B124646E7A00BEDF01 /* Sources */ = {
+		EDBF44E9248814F100BEDF01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBF44BB24646E7A00BEDF01 /* ViewController.swift in Sources */,
-				EDBF44B924646E7A00BEDF01 /* AppDelegate.swift in Sources */,
+				EDBF44F5248814F100BEDF01 /* ViewController.swift in Sources */,
+				EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */,
+				EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44C324646E7D00BEDF01 /* Sources */ = {
+		EDBF44FF248814F800BEDF01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBF44CC24646E7D00BEDF01 /* Disc_GoTests.swift in Sources */,
+				EDBF4508248814F800BEDF01 /* Disc_GoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDBF44CE24646E7D00BEDF01 /* Sources */ = {
+		EDBF450A248814F800BEDF01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDBF44D724646E7D00BEDF01 /* Disc_GoUITests.swift in Sources */,
+				EDBF4513248814F800BEDF01 /* Disc_GoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDBF44C924646E7D00BEDF01 /* PBXTargetDependency */ = {
+		EDBF4505248814F800BEDF01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDBF44B424646E7A00BEDF01 /* Disc-Go */;
-			targetProxy = EDBF44C824646E7D00BEDF01 /* PBXContainerItemProxy */;
+			target = EDBF44EC248814F100BEDF01 /* Disc-Go */;
+			targetProxy = EDBF4504248814F800BEDF01 /* PBXContainerItemProxy */;
 		};
-		EDBF44D424646E7D00BEDF01 /* PBXTargetDependency */ = {
+		EDBF4510248814F800BEDF01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDBF44B424646E7A00BEDF01 /* Disc-Go */;
-			targetProxy = EDBF44D324646E7D00BEDF01 /* PBXContainerItemProxy */;
+			target = EDBF44EC248814F100BEDF01 /* Disc-Go */;
+			targetProxy = EDBF450F248814F800BEDF01 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDBF44BE24646E7D00BEDF01 /* Main.storyboard */ = {
+		EDBF44F6248814F100BEDF01 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDBF44BF24646E7D00BEDF01 /* Base */,
+				EDBF44F7248814F100BEDF01 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDBF44FB248814F700BEDF01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDBF44FC248814F700BEDF01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EDBF44D924646E7D00BEDF01 /* Debug */ = {
+		EDBF4515248814F800BEDF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,17 +366,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		EDBF44DA24646E7D00BEDF01 /* Release */ = {
+		EDBF4516248814F800BEDF01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,127 +420,126 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EDBF44DC24646E7D00BEDF01 /* Debug */ = {
+		EDBF4518248814F800BEDF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Disc-Go/Disc_Go.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-Go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EDBF44DD24646E7D00BEDF01 /* Release */ = {
+		EDBF4519248814F800BEDF01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Disc-Go/Disc_Go.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-Go";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		EDBF44DF24646E7D00BEDF01 /* Debug */ = {
+		EDBF451B248814F800BEDF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-GoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-GoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disc-Go.app/Contents/MacOS/Disc-Go";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disc-Go.app/Disc-Go";
 			};
 			name = Debug;
 		};
-		EDBF44E024646E7D00BEDF01 /* Release */ = {
+		EDBF451C248814F800BEDF01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-GoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-GoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disc-Go.app/Contents/MacOS/Disc-Go";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disc-Go.app/Disc-Go";
 			};
 			name = Release;
 		};
-		EDBF44E224646E7D00BEDF01 /* Debug */ = {
+		EDBF451E248814F800BEDF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-GoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-GoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Disc-Go";
 			};
 			name = Debug;
 		};
-		EDBF44E324646E7D00BEDF01 /* Release */ = {
+		EDBF451F248814F800BEDF01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Disc-GoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kayla-Butler.Disc-GoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Disc-Go";
 			};
 			name = Release;
@@ -534,43 +547,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDBF44B024646E7A00BEDF01 /* Build configuration list for PBXProject "Disc-Go" */ = {
+		EDBF44E8248814F100BEDF01 /* Build configuration list for PBXProject "Disc-Go" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDBF44D924646E7D00BEDF01 /* Debug */,
-				EDBF44DA24646E7D00BEDF01 /* Release */,
+				EDBF4515248814F800BEDF01 /* Debug */,
+				EDBF4516248814F800BEDF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDBF44DB24646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-Go" */ = {
+		EDBF4517248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-Go" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDBF44DC24646E7D00BEDF01 /* Debug */,
-				EDBF44DD24646E7D00BEDF01 /* Release */,
+				EDBF4518248814F800BEDF01 /* Debug */,
+				EDBF4519248814F800BEDF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDBF44DE24646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoTests" */ = {
+		EDBF451A248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDBF44DF24646E7D00BEDF01 /* Debug */,
-				EDBF44E024646E7D00BEDF01 /* Release */,
+				EDBF451B248814F800BEDF01 /* Debug */,
+				EDBF451C248814F800BEDF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDBF44E124646E7D00BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoUITests" */ = {
+		EDBF451D248814F800BEDF01 /* Build configuration list for PBXNativeTarget "Disc-GoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDBF44E224646E7D00BEDF01 /* Debug */,
-				EDBF44E324646E7D00BEDF01 /* Release */,
+				EDBF451E248814F800BEDF01 /* Debug */,
+				EDBF451F248814F800BEDF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDBF44AD24646E7A00BEDF01 /* Project object */;
+	rootObject = EDBF44E5248814F100BEDF01 /* Project object */;
 }
