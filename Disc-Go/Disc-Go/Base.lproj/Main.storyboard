@@ -51,6 +51,9 @@
                                 <rect key="frame" x="299" y="478" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="Tj6-vs-kF5" kind="show" id="gOc-Dp-VHm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -65,6 +68,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="BjZ-Kw-IAe">
+            <objects>
+                <viewController id="Tj6-vs-kF5" customClass="SignUpViewController" customModule="Disc_Go" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gmm-JW-KfH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6U-Wa-4IK">
+                                <rect key="frame" x="55" y="69" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="oKE-p5-ai1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="c0V-1w-fhK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C4P-kI-KiI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0VD-0S-CaG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920" y="113"/>
         </scene>
         <!--Forgot Pass View Controller-->
         <scene sceneID="52b-cc-8nQ">
@@ -146,4 +175,7 @@
             <point key="canvasLocation" x="-877" y="113"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oKE-p5-ai1"/>
+    </inferredMetricsTieBreakers>
 </document>
