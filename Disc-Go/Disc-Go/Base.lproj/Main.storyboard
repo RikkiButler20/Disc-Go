@@ -167,6 +167,9 @@
                                 <rect key="frame" x="119" y="458" width="177" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Answer Security Question"/>
+                                <connections>
+                                    <action selector="userSecurityQuestion:" destination="IQT-zL-lhF" eventType="touchUpInside" id="fHR-H7-f67"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzW-eL-tPS" userLabel="Security Question">
                                 <rect key="frame" x="126" y="562" width="163" height="34"/>
@@ -191,6 +194,9 @@
                                 <rect key="frame" x="153" y="658" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset Password"/>
+                                <connections>
+                                    <action selector="resetPassword:" destination="IQT-zL-lhF" eventType="touchUpInside" id="8R6-yG-OaN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWu-yY-NIZ">
                                 <rect key="frame" x="20" y="42" width="111" height="30"/>
@@ -205,6 +211,12 @@
                         <viewLayoutGuide key="safeArea" id="HHW-q2-Ceh"/>
                     </view>
                     <navigationItem key="navigationItem" id="IDI-xa-sVB"/>
+                    <connections>
+                        <outlet property="email" destination="XdD-uu-M0D" id="lFo-wi-nKb"/>
+                        <outlet property="securityAnswer" destination="zqw-Uh-zXC" id="ugM-cA-DA2"/>
+                        <outlet property="securityQuestion" destination="tzW-eL-tPS" id="CdX-2b-jHP"/>
+                        <outlet property="username" destination="22g-pl-XTT" id="Oje-dA-Srn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T8H-Kj-eDB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
