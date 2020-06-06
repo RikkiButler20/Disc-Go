@@ -146,12 +146,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpUser:" destination="Tj6-vs-kF5" eventType="touchUpInside" id="fx3-sJ-fVC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="c0V-1w-fhK"/>
                     </view>
                     <navigationItem key="navigationItem" id="C4P-kI-KiI"/>
+                    <connections>
+                        <outlet property="confirmEmail" destination="ko3-Az-rGp" id="YXP-gB-WsS"/>
+                        <outlet property="confirmPassword" destination="0sc-4P-Sff" id="e1y-MI-aFi"/>
+                        <outlet property="email" destination="Tg6-EM-fFv" id="jP7-84-7iM"/>
+                        <outlet property="firstName" destination="qAm-Mp-udp" id="rcc-8z-FGv"/>
+                        <outlet property="lastName" destination="ljC-VZ-1rG" id="XA7-0O-JEW"/>
+                        <outlet property="password" destination="j0M-dS-s9Z" id="8gE-eh-LGV"/>
+                        <outlet property="securityAnswer" destination="rdX-oJ-f3f" id="jun-A2-7dL"/>
+                        <outlet property="securityQuestion" destination="3mX-BV-2w2" id="O0v-Kz-ovR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VD-0S-CaG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
