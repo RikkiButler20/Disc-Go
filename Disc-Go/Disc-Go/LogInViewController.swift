@@ -27,6 +27,11 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    func getCurrentUser() -> [String] {
+        return curUser;
+    }
+    
     @IBAction func logIn(_ sender: Any) { //TODO: Fix when backend comes in
         //if both fields aren't filled out
         let usernameText = username.text ?? ""
@@ -57,18 +62,17 @@ class LogInViewController: UIViewController {
                 incorrectPasswordAlert(alertMessage: "Password is incorrect")
             }
         } else {
+            //pop up of username doesn't exist
             incorrectPasswordAlert(alertMessage: "Username is incorrect")
         }
-            
-            
-        //pop up of username doesn't exist
     }
+    
     
     func incorrectPasswordAlert(alertMessage: String) {
         let alert = UIAlertController(title: "Alert", message: alertMessage, preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: { (_) in
-            print("You closed the incorrect password alert")
+            print("You closed the alert")
         }))
 
         self.present(alert, animated: true, completion: nil)
