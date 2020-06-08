@@ -253,8 +253,32 @@
             </objects>
             <point key="canvasLocation" x="-877" y="113"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FNa-4w-fie">
+            <objects>
+                <viewController id="VAh-rZ-FaZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lve-44-cjq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIj-4H-RMO">
+                                <rect key="frame" x="171" y="117" width="73" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Cdz-sb-JCC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1WP-TH-Kxr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375.36231884057975" y="804.91071428571422"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oKE-p5-ai1"/>
+        <segue reference="7il-nf-wGF"/>
     </inferredMetricsTieBreakers>
 </document>
