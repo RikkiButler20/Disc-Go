@@ -43,11 +43,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRY-3u-xcS">
-                                <rect key="frame" x="186" y="407" width="42" height="30"/>
+                                <rect key="frame" x="175" y="407" width="53" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <action selector="logIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OSg-lF-3UI"/>
+                                    <segue destination="VAh-rZ-FaZ" kind="presentation" modalPresentationStyle="fullScreen" id="YJT-rd-LBY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cda-w1-gfJ">
@@ -272,10 +273,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Cdz-sb-JCC"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jcJ-Js-Ev2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1WP-TH-Kxr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-375.36231884057975" y="804.91071428571422"/>
+            <point key="canvasLocation" x="-317" y="885"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

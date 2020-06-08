@@ -54,9 +54,11 @@ class LogInViewController: UIViewController {
                 //curUser = the array of the user we got from DB & include the username
                 var curUser = user
                 curUser.append(usernameText)
-                print("Logging In")
                 
+                print("Logging In")
+                let accountView: AccountViewController
                 //segue to account page TODO: Do the segue
+                
             } else {
                 //pop up of password doesn't match
                 incorrectPasswordAlert(alertMessage: "Password is incorrect")
@@ -77,5 +79,5 @@ class LogInViewController: UIViewController {
 
         self.present(alert, animated: true, completion: nil)
     }
-    
+        
 }
