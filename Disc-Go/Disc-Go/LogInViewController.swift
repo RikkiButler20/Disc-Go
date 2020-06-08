@@ -60,16 +60,16 @@ class LogInViewController: UIViewController {
                 performSegue(withIdentifier: "log in", sender: nil)
             } else {
                 //pop up of password doesn't match
-                incorrectPasswordAlert(alertMessage: "Password is incorrect")
+                incorrectInformationAlert(alertMessage: "Password is incorrect")
             }
         } else {
             //pop up of username doesn't exist
-            incorrectPasswordAlert(alertMessage: "Username is incorrect")
+            incorrectInformationAlert(alertMessage: "Username is incorrect")
         }
     }
     
     
-    func incorrectPasswordAlert(alertMessage: String) {
+    func incorrectInformationAlert(alertMessage: String) {
         let alert = UIAlertController(title: "Alert", message: alertMessage, preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: { (_) in
