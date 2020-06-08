@@ -56,9 +56,8 @@ class LogInViewController: UIViewController {
                 curUser.append(usernameText)
                 
                 print("Logging In")
-                let accountView: AccountViewController
                 //segue to account page TODO: Do the segue
-                
+                performSegue(withIdentifier: "log in", sender: nil)
             } else {
                 //pop up of password doesn't match
                 incorrectPasswordAlert(alertMessage: "Password is incorrect")
@@ -80,4 +79,5 @@ class LogInViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
         
+    
 }
