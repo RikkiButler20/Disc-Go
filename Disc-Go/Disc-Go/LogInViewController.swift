@@ -53,16 +53,19 @@ class LogInViewController: UIViewController {
                 
                 //segue to account page TODO: Do the segue
             } else {
-                incorrectPasswordAlert()
+                //pop up of password doesn't match
+                incorrectPasswordAlert(alertMessage: "Password is incorrect")
             }
+        } else {
+            incorrectPasswordAlert(alertMessage: "Username is incorrect")
         }
-            //pop up of password doesn't match
+            
             
         //pop up of username doesn't exist
     }
     
-    func incorrectPasswordAlert() {
-        let alert = UIAlertController(title: "Alert", message: "Password is incorrect", preferredStyle: .alert)
+    func incorrectPasswordAlert(alertMessage: String) {
+        let alert = UIAlertController(title: "Alert", message: alertMessage, preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: { (_) in
             print("You closed the incorrect password alert")
