@@ -13,6 +13,8 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     
+    var curUser = [String]()
+    
     //creating fake user DB
     //[first name, last name, email, password, security question, security answer]
     var userDB = [
@@ -25,5 +27,16 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func logIn(_ sender: Any) {
+        //if both fields aren't filled out
+            //return
+        
+        //if username exists
+            //check if password matches that password
+                //curUser = the array of the user we got from DB & include the username
+                //segue to account page
+            //pop up of password doesn't match
+        //pop up of username doesn't exist
+    }
+    
 }
