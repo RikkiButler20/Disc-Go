@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="-877" y="113"/>
         </scene>
-        <!--View Controller-->
+        <!--Account View Controller-->
         <scene sceneID="FNa-4w-fie">
             <objects>
-                <viewController id="VAh-rZ-FaZ" sceneMemberID="viewController">
+                <viewController id="VAh-rZ-FaZ" customClass="AccountViewController" customModule="Disc_Go" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lve-44-cjq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
