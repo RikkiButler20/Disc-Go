@@ -22,9 +22,22 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
    
-    @IBAction func signUpUser(_ sender: Any) {
+    @IBAction func signUpUser(_ sender: Any) { //TODO: Change when backend works
+        //all information must be filled out
+            //return
+        
+        //passwords and emails match
+            //return
+        
+        //if username exists
+            //pop that user name exists
+            //return
+        
+        //send info to backend
+        //segue
     }
     
 }
