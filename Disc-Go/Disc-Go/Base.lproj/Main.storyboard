@@ -168,6 +168,7 @@
                         <outlet property="securityAnswer" destination="rdX-oJ-f3f" id="jun-A2-7dL"/>
                         <outlet property="securityQuestion" destination="3mX-BV-2w2" id="O0v-Kz-ovR"/>
                         <outlet property="username" destination="ko3-Az-rGp" id="YXP-gB-WsS"/>
+                        <segue destination="VAh-rZ-FaZ" kind="presentation" identifier="signup" modalPresentationStyle="fullScreen" id="L0d-09-1DV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VD-0S-CaG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -277,10 +278,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1WP-TH-Kxr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-317" y="885"/>
+            <point key="canvasLocation" x="710" y="1065"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="L0d-09-1DV"/>
         <segue reference="oKE-p5-ai1"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -61,15 +61,20 @@ class SignUpViewController: UIViewController {
             return
         }
         
-        //get information from backend
-        
+        //TODO: get information from backend
         
         //if username exists
-            //pop that user name exists
-            //return
+        if userDB[username.text!] != nil {
+            incorrectInformationAlert(alertMessage: "Username already exists")
+            return
+        }
         
-        //send info to backend
+        //TODO: send info to backend
+        userDB[username.text!] = [firstName.text!, lastName.text!, email.text!, password.text!, securityQuestion.text!, securityAnswer.text!]
+        curUser = userDB[username.text!]!
+        
         //segue
+        performSegue(withIdentifier: "signup", sender: nil)
     }
     
     func incorrectInformationAlert(alertMessage: String) {
