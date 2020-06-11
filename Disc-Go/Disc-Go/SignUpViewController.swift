@@ -55,7 +55,7 @@ class SignUpViewController: UIViewController {
     }
     
     func isValidPassword(_ pass: String) -> Bool {
-        let passwordRegEx = "[A-Z0-9a-z._%+-]+"
+        let passwordRegEx = "[A-Z0-9a-z]+[._%+-]*"
 
         let passwordPred = NSPredicate(format:"SELF MATCHES %@", passwordRegEx)
         return passwordPred.evaluate(with: pass) && pass.count >= 8
@@ -76,7 +76,7 @@ class SignUpViewController: UIViewController {
         
         //password follows criteria
         if !isValidPassword(password.text!) {
-            incorrectInformationAlert(alertMessage: "Password doesn't follow criteria \n")
+            incorrectInformationAlert(alertMessage: "Password doesn't follow criteria\nLength of 8")
         }
         
         //passwords must match

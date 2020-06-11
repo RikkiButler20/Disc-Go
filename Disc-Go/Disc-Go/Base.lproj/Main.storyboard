@@ -219,19 +219,19 @@
                                     <action selector="userSecurityQuestion:" destination="IQT-zL-lhF" eventType="touchUpInside" id="fHR-H7-f67"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzW-eL-tPS" userLabel="Security Question">
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tzW-eL-tPS" userLabel="Security Question">
                                 <rect key="frame" x="126" y="477" width="163" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zqw-Uh-zXC" userLabel="Security Answer">
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Security Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zqw-Uh-zXC" userLabel="Security Answer">
                                 <rect key="frame" x="126" y="519" width="163" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHU-rJ-VfX" userLabel="Reset Password">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHU-rJ-VfX" userLabel="Reset Password">
                                 <rect key="frame" x="152" y="573" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Reset Password"/>
@@ -246,6 +246,7 @@
                     <navigationItem key="navigationItem" id="IDI-xa-sVB"/>
                     <connections>
                         <outlet property="email" destination="XdD-uu-M0D" id="lFo-wi-nKb"/>
+                        <outlet property="resetPasswordBtn" destination="WHU-rJ-VfX" id="vrM-oa-NcT"/>
                         <outlet property="securityAnswer" destination="zqw-Uh-zXC" id="ugM-cA-DA2"/>
                         <outlet property="securityQuestion" destination="tzW-eL-tPS" id="CdX-2b-jHP"/>
                         <outlet property="username" destination="22g-pl-XTT" id="Oje-dA-Srn"/>
@@ -283,6 +284,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="L0d-09-1DV"/>
-        <segue reference="oKE-p5-ai1"/>
+        <segue reference="7il-nf-wGF"/>
     </inferredMetricsTieBreakers>
 </document>
