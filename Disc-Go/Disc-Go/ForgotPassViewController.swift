@@ -33,18 +33,18 @@ class ForgotPassViewController: UIViewController {
     @IBAction func userSecurityQuestion(_ sender: Any) { //TODO: Change when backend comes in
         
         if !isInformationInputted(email, username) {
-            incorrectInformationAlert("Alert", alertMessage: "Please fill out all textfields")
+            alertPopUp("Alert", alertMessage: "Please fill out all textfields")
             return
         }
         if userDB[username.text ?? ""] == nil {
-            incorrectInformationAlert("Alert", alertMessage: "Username was not found")
+            alertPopUp("Alert", alertMessage: "Username was not found")
             return
         }
         
         let userInfo = userDB[username.text!]
         
         //check if email and username combo exists
-        if userInfo?[2] == email.text! {
+        if email.text!.lowercased() == userInfo?[2] {
             //put the user's security question in the textfield
             securityQuestion.text = userInfo?[4]
             //unhidden the security question, answer & button
@@ -52,17 +52,29 @@ class ForgotPassViewController: UIViewController {
             securityAnswer.isHidden = false
             resetPasswordBtn.isHidden = false
         } else {
-            incorrectInformationAlert("Alert", alertMessage: "Email does not match username")
-
+            alertPopUp("Alert", alertMessage: "Email does not match with username")
+            return
         }
-        
-
-        
-    }
-    @IBAction func resetPassword(_ sender: Any) {
     }
     
-    func incorrectInformationAlert(_ alertTitle: String, alertMessage: String) {
+    @IBAction func resetPassword(_ sender: Any) {
+        if securityAnswer.text!.isEmpty {
+            alertPopUp("Alert", alertMessage: "Please fill in the textfield")
+            return
+        }
+        
+         let userInfo = userDB[username.text!]
+        
+        if securityAnswer.text != userInfo?[5] {
+            alertPopUp("Alert", alertMessage: "Incorrect security answer")
+            return
+        } else{
+            //TODO: Make this better later
+            alertPopUp("Password", alertMessage: userInfo?[3] ?? "ERROR!")
+        }
+    }
+    
+    func alertPopUp(_ alertTitle: String, alertMessage: String) {
         let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
 
         alert.addAction(UIAlertAction(title: "Close", style: .default, handler: { (_) in
