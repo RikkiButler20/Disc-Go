@@ -47,12 +47,36 @@ class SignUpViewController: UIViewController {
         }
     }
     
+    func isValidEmail(_ email: String) -> Bool {
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
+        let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailPred.evaluate(with: email)
+    }
+    
+    func isValidPassword(_ pass: String) -> Bool {
+        let passwordRegEx = "[A-Z0-9a-z._%+-]+"
+
+        let passwordPred = NSPredicate(format:"SELF MATCHES %@", passwordRegEx)
+        return passwordPred.evaluate(with: pass) && pass.count >= 8
+    }
     
     @IBAction func signUpUser(_ sender: Any) { //TODO: Change when backend works
         //all information must be filled out
         if !isInformationThere() {
             incorrectInformationAlert(alertMessage: "Information is missing")
             return
+        }
+        
+        //email follows email format
+        if !isValidEmail(email.text!) {
+            incorrectInformationAlert(alertMessage: "Input a valid email")
+            return
+        }
+        
+        //password follows criteria
+        if !isValidPassword(password.text!) {
+            incorrectInformationAlert(alertMessage: "Password doesn't follow criteria \n")
         }
         
         //passwords must match
