@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0A15602498607F0009F5C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A155F2498607F0009F5C5 /* MapViewController.swift */; };
 		EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F0248814F100BEDF01 /* AppDelegate.swift */; };
 		EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */; };
 		EDBF44F8248814F100BEDF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44F6248814F100BEDF01 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED0A155F2498607F0009F5C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EDBF44ED248814F100BEDF01 /* Disc-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disc-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF44F0248814F100BEDF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				EDBF44F0248814F100BEDF01 /* AppDelegate.swift */,
 				EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */,
 				EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */,
+				ED0A155F2498607F0009F5C5 /* MapViewController.swift */,
 				EDBF452A24884D4700BEDF01 /* LogInViewController.swift */,
 				EDBF453024885FE600BEDF01 /* SignUpViewController.swift */,
 				EDBF4534248DEFBC00BEDF01 /* AccountViewController.swift */,
@@ -274,6 +277,7 @@
 				EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */,
 				EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */,
 				EDBF453124885FE600BEDF01 /* SignUpViewController.swift in Sources */,
+				ED0A15602498607F0009F5C5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
