@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED0A15602498607F0009F5C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A155F2498607F0009F5C5 /* MapViewController.swift */; };
+		ED1D369B24AD82380024D769 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D369A24AD82370024D769 /* ForgotPassViewController.swift */; };
+		ED1D369D24AD82530024D769 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D369C24AD82530024D769 /* MapViewController.swift */; };
 		EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F0248814F100BEDF01 /* AppDelegate.swift */; };
 		EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */; };
 		EDBF44F8248814F100BEDF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44F6248814F100BEDF01 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		EDBF44FD248814F700BEDF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBF44FB248814F700BEDF01 /* LaunchScreen.storyboard */; };
 		EDBF4508248814F800BEDF01 /* Disc_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4507248814F800BEDF01 /* Disc_GoTests.swift */; };
 		EDBF4513248814F800BEDF01 /* Disc_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */; };
-		EDBF45272488267D00BEDF01 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */; };
 		EDBF452B24884D4800BEDF01 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF452A24884D4700BEDF01 /* LogInViewController.swift */; };
 		EDBF453124885FE600BEDF01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF453024885FE600BEDF01 /* SignUpViewController.swift */; };
 		EDBF4535248DEFBC00BEDF01 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBF4534248DEFBC00BEDF01 /* AccountViewController.swift */; };
@@ -39,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED0A155F2498607F0009F5C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ED1D369A24AD82370024D769 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPassViewController.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/ForgotPassViewController.swift"; sourceTree = "<group>"; };
+		ED1D369C24AD82530024D769 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EDBF44ED248814F100BEDF01 /* Disc-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disc-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF44F0248814F100BEDF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		EDBF450E248814F800BEDF01 /* Disc-GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disc-GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBF4512248814F800BEDF01 /* Disc_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc_GoUITests.swift; sourceTree = "<group>"; };
 		EDBF4514248814F800BEDF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		EDBF452A24884D4700BEDF01 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EDBF453024885FE600BEDF01 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EDBF4534248DEFBC00BEDF01 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -109,10 +109,10 @@
 			children = (
 				EDBF44F0248814F100BEDF01 /* AppDelegate.swift */,
 				EDBF44F2248814F100BEDF01 /* SceneDelegate.swift */,
-				EDBF45262488267D00BEDF01 /* ForgotPassViewController.swift */,
-				ED0A155F2498607F0009F5C5 /* MapViewController.swift */,
+				ED1D369A24AD82370024D769 /* ForgotPassViewController.swift */,
 				EDBF452A24884D4700BEDF01 /* LogInViewController.swift */,
 				EDBF453024885FE600BEDF01 /* SignUpViewController.swift */,
+				ED1D369C24AD82530024D769 /* MapViewController.swift */,
 				EDBF4534248DEFBC00BEDF01 /* AccountViewController.swift */,
 				EDBF44F6248814F100BEDF01 /* Main.storyboard */,
 				EDBF44F9248814F700BEDF01 /* Assets.xcassets */,
@@ -272,12 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDBF452B24884D4800BEDF01 /* LogInViewController.swift in Sources */,
-				EDBF45272488267D00BEDF01 /* ForgotPassViewController.swift in Sources */,
 				EDBF4535248DEFBC00BEDF01 /* AccountViewController.swift in Sources */,
+				ED1D369B24AD82380024D769 /* ForgotPassViewController.swift in Sources */,
 				EDBF44F1248814F100BEDF01 /* AppDelegate.swift in Sources */,
 				EDBF44F3248814F100BEDF01 /* SceneDelegate.swift in Sources */,
 				EDBF453124885FE600BEDF01 /* SignUpViewController.swift in Sources */,
-				ED0A15602498607F0009F5C5 /* MapViewController.swift in Sources */,
+				ED1D369D24AD82530024D769 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
