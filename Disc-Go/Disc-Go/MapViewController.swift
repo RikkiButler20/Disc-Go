@@ -26,10 +26,24 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
 
         mapView.showsUserLocation = true
         
+        var annotations : [MKPointAnnotation] = []
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 29.556009, longitude: -98.335480)
         annotation.subtitle = "Live Oak Hillside"
-        mapView.addAnnotation(annotation)
+        annotations.append(annotation)
+        
+        let annotation1 = MKPointAnnotation()
+        annotation1.coordinate = CLLocationCoordinate2D(latitude: 29.55735, longitude: -98.29556)
+        annotation1.subtitle = "Universal City Disc Golf Course"
+        annotations.append(annotation1)
+        print("Annotations")
+        
+        for a in annotations {
+            print(a.subtitle)
+        }
+        
+        mapView.showAnnotations(annotations, animated: true)
+
 
         
     }
