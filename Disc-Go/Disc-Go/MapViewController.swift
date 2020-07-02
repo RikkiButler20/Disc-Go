@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     fileprivate let locationManager = CLLocationManager()
@@ -25,6 +25,13 @@ class MapViewController: UIViewController {
         locationManager.startUpdatingLocation()
 
         mapView.showsUserLocation = true
+        
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 29.556009, longitude: -98.335480)
+        annotation.subtitle = "Live Oak Hillside"
+        mapView.addAnnotation(annotation)
+
+        
     }
     
 
