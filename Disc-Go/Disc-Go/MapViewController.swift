@@ -7,12 +7,48 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
-class MapViewController: UIViewController {
-    
+
+class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+
+
+    @IBOutlet weak var mapView: MKMapView!
+    fileprivate let locationManager = CLLocationManager()
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        // Do any additional setup after loading the view.            // Do any additional setup after loading the view.
+        locationManager.requestWhenInUseAuthorization();
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.distanceFilter = kCLDistanceFilterNone
+        locationManager.startUpdatingLocation()
+
+        mapView.showsUserLocation = true
+
+        var annotations : [MKPointAnnotation] = []
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 29.556009, longitude: -98.335480)
+        annotation.subtitle = "Live Oak Hillside"
+        annotations.append(annotation)
+
+        let annotation1 = MKPointAnnotation()
+        annotation1.coordinate = CLLocationCoordinate2D(latitude: 29.55735, longitude: -98.29556)
+        annotation1.subtitle = "Universal City Disc Golf Course"
+        annotations.append(annotation1)
+        print("Annotations")
+
+        for a in annotations {
+            print(a.subtitle)
+        }
+
+        mapView.showAnnotations(annotations, animated: true)
+
+
+
     }
 
 }
